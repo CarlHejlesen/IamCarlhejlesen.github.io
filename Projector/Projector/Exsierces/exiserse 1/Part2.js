@@ -6,6 +6,7 @@ var msgBoard={
       this.Messages.push(string);
     },
     printMessages: function () {
+        console.log("Messages History in board IWP Chat:");
 for(let i=0;i<this.Messages.length;i++){
     console.log(this.Messages[i]);
 }
