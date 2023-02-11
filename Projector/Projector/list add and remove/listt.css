@@ -1,0 +1,94 @@
+
+
+/*
+Margin-top: Gør at der kommer en Margin- på toppen af boxen.
+Background: gør at der kommer en background.
+Box-shadow: gør at der kommer en skygge ved boxen.
+*/
+form{
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: -3px 6px 4px #222;
+}
+
+/* This is how to make an comments
+ Min-height: decides the min requrement for an element.
+ Background: tells what background we want from our page.
+ Display: Shows how we want our elements to be displayed. Flex means it will "flex" in a certain direction.
+ Align-items: This is where on the page we want the items to be displayed as based.
+ Flex-direction: Shows what direction the elemets that are created should flex.
+ */
+body{
+min-height: 10vh;
+background: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/*Here we form the input*/
+form input{
+height: 40px;
+width: 250px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+}
+/*Here we form the add button*/
+form button{
+    height: 40px;
+    width: 50px;
+    border: none;
+    background: darkcyan;
+}
+/*This moves the container 50px down from our input form*/
+.container{
+    margin-top: 50px;
+}
+/*
+List-style: gør ikke rigtigt noget.
+Width: afgøre vores liste element brede.
+*/
+ul{
+    list-style: none;
+    width: 500px;
+}
+/*
+Width: % afgøre hvor mange procent af den oprentlige width vi ønsker.
+Background: gør at vi har en bagrund på de boxe vi har oprettet.
+Height: gør ikke rigtigt noget.
+Line-height: afgøre hvor i boksen txt´en skal starte.
+Padding: gør så vi forskyder start txt, med 5 px.
+Position: afgøre hvor at x skal sættes.
+Cursor: pointer gør at når du holder musen over bliver det til en pegefinger så man kan se at man kan klikke på den.
+Display: block gør ikke rigitg noget.
+Margin: gør at der kommer mellemrum mellem vær box.
+Box-shadow: gør at der kommer en rigtig fin lille skygge
+*/
+ul li{
+    width: 100%;
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 5px 0;
+    box-shadow: -3px 6px 4px #222;
+}
+/*
+Position: absolute gør at den fylder ud med så meget så muligt.
+Top: gør ikke rigtig noget.
+Right: gør at den starter i højre side.
+Width: afgøre hvor bred at knappen skal være.
+Text-align: afgøre hvor i vores kryds box at texten skal være, i dette tilfælde i center.
+Background: er farven på vores "box"
+*/
+ul li span{
+position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: center;
+    background: red;
+}

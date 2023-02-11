@@ -1,0 +1,27 @@
+
+
+
+
+body{
+background: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list_for_containers{
+    margin-top: 50px;
+}
+
+ul{
+    margin: 5px 0;
+list-style: none;
+
+}
+
+.list_for_containers ul{
+    margin-right: 50px;
+}
+ul li{
+    margin-right: 20px;
+}
